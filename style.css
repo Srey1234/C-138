@@ -41,3 +41,11 @@ h4
 {
     width: 45%;
 }
+
+video
+{
+    background:url('game-console.png');
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+}
