@@ -4,8 +4,17 @@ GameStatus="";
 
 function startGame()
 {
-	GameStatus = "start";
-	document.getElementById("status").innerHTML = "Game is loading";
+	     GameStatus = "start";
+	     document.getElementById("status").innerHTML = "Game is loading";	
+}
+
+function changeGameStatud()
+{
+	if( GameStatus == "start" && noseX !=""&& gameConfig.status==="start")
+	{
+		world_start.play
+	}
+
 }
 
 function game()
